@@ -43,7 +43,7 @@ Key Features:
 ---
 
 ## **Big Data Infrastructure**
-![AWS EMR Cluster Setup](path_to_image/aws_emr_cluster_diagram.png)
+![AWS EMR Cluster Setup](resources/aws_emr_cluster_diagram.png)
 
 - **AWS EMR Cluster Configuration**:
   - Primary Node: `1 x m5.xlarge` (4 vCPUs, 16 GiB RAM, 64 GiB EBS)
@@ -59,16 +59,16 @@ Key Features:
 ## **Exploratory Data Analysis (EDA)**
 ### Key Insights:
 #### **Severe Class Imbalance**
-![Class Imbalance](path_to_image/class_imbalance_chart.png)
+![Class Imbalance](resources/class_imbalance_chart.png)
 - 99.95% transactions are non-laundering, 0.05% are laundering.
 
 #### **Payment Format Distribution**
-![Payment Format Distribution](path_to_image/payment_format_distribution_chart.png)
+![Payment Format Distribution](resources/payment_format_distribution_chart.png)
 - Most common: Cheque and Credit Card.
 - Least common: Bitcoin and Wire Transfers.
 
 #### **Feature Correlation**
-![Feature Correlation Heatmap](path_to_image/feature_correlation_heatmap.png)
+![Feature Correlation Heatmap](resources/feature_correlation_heatmap.png)
 - Features like `PatternTypeIndex` had a high correlation (0.68) with laundering.
 
 ---
@@ -81,7 +81,7 @@ Key Features:
    - Downsampled the majority class (non-laundering transactions).
    - Applied SMOTE (Synthetic Minority Oversampling).
    - **Balanced Dataset Visualization**:
-     ![SMOTE Class Distribution](path_to_image/smote_class_distribution_chart.png)
+     ![SMOTE Class Distribution](resources/smote_class_distribution_chart.png)
 
 ---
 
@@ -117,10 +117,10 @@ Key Features:
 | Recall        | 1.0                       | 0.98                    |
 
 ### **Performance Comparison**
-![Performance Comparison](path_to_image/performance_comparison_chart.png)
+![Performance Comparison](resources/performance_comparison_chart.png)
 
 ### **Confusion Matrix**
-![Confusion Matrix](path_to_image/confusion_matrix.png)
+![Confusion Matrix](resources/confusion_matrix.png)
 
 ---
 
