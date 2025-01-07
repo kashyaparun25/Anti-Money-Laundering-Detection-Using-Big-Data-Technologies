@@ -1,5 +1,5 @@
 ---
-license: -
+license: N/A
 datasets:
   - IBM AML Synthetic Transactions Dataset
 library_name: pyspark
