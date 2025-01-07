@@ -119,7 +119,6 @@ Key Features:
 | Recall        | 1.0                       | 0.98                    |
 
 
-![Performance Comparison](resources/performance_comparison_chart.png)
 
 ## **Confusion Matrix**
 
