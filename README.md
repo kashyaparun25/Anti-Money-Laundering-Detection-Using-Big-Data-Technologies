@@ -1,5 +1,5 @@
 ---
-license: apache-2.0
+license: -
 datasets:
   - IBM AML Synthetic Transactions Dataset
 library_name: pyspark
