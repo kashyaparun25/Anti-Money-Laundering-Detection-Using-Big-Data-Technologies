@@ -148,8 +148,3 @@ This project successfully demonstrated how distributed systems and machine learn
 
 ---
 
-## **How to Use**
-### **Setup Instructions**
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/kashyaparun/Anti-Money-Laundering-Detection.git
