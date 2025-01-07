@@ -43,7 +43,6 @@ Key Features:
 ---
 
 ## **Big Data Infrastructure**
-![AWS EMR Cluster Setup](resources/aws_emr_cluster_diagram.png)
 
 - **AWS EMR Cluster Configuration**:
   - Primary Node: `1 x m5.xlarge` (4 vCPUs, 16 GiB RAM, 64 GiB EBS)
@@ -81,6 +80,7 @@ Key Features:
    - Downsampled the majority class (non-laundering transactions).
    - Applied SMOTE (Synthetic Minority Oversampling).
    - **Balanced Dataset Visualization**:
+     
      ![SMOTE Class Distribution](resources/smote_class_distribution_chart.png)
 
 ---
@@ -108,6 +108,8 @@ Key Features:
 
 ---
 
+### **Performance Comparison**
+
 ## **Performance Metrics**
 | Metric        | First Run (With Leakage) | Second Run (No Leakage) |
 |---------------|---------------------------|--------------------------|
@@ -116,19 +118,17 @@ Key Features:
 | Precision     | 1.0                       | 0.97                    |
 | Recall        | 1.0                       | 0.98                    |
 
-### **Performance Comparison**
+
 ![Performance Comparison](resources/performance_comparison_chart.png)
 
-### **Confusion Matrix**
+## **Confusion Matrix**
+
 ![Confusion Matrix](resources/confusion_matrix.png)
 
----
-
-## **Confusion Matrix**
-- **True Positives (TP)**: Correctly identified laundering transactions.
-- **False Negatives (FN)**: Missed laundering cases.
-- **False Positives (FP)**: Legitimate transactions incorrectly flagged.
-- **True Negatives (TN)**: Correctly identified legitimate transactions.
+- **True Positives (TP)**: 127961 --> Correctly identified laundering transactions.
+- **False Negatives (FN)**: 48764 --> Missed laundering cases.
+- **False Positives (FP)**: 5865 --> Legitimate transactions incorrectly flagged.
+- **True Negatives (TN)**: 2337671 --> Correctly identified legitimate transactions.
 
 ---
 
